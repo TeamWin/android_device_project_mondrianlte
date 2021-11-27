@@ -14,7 +14,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/file_contexts:recovery/root/prebuilt_file_contexts \
 	$(LOCAL_PATH)/init.recovery.qcom.rc:root/init.recovery.qcom.rc
 
-$(call inherit-product, build/target/product/full.mk)
+$(call inherit-product, build/target/product/embedded.mk)
 
 PRODUCT_NAME := omni_mondrianlte
 PRODUCT_DEVICE := mondrianlte
